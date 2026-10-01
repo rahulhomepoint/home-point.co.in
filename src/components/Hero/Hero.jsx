@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import HeroImage from "../../assets/Banner_img.jpg";
 import "./Hero.css";
-import Model from "../utils/popModel/model";
+import Model from "../utils/popModel/Model";
 import Banner from "../utils/HeroBanner/Banner";
 import Home from "../Home";
 import { Spinner, Alert } from "flowbite-react";
